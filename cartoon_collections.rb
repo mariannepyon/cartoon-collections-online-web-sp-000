@@ -1,6 +1,6 @@
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves(x)# code an argument here
   # Your code here
-  dwarves.collect {|x| x.sort}
+  x.collect {|x| x.sort}
 end
 
 def summon_captain_planet# code an argument here
