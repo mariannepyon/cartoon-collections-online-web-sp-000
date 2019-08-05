@@ -1,8 +1,10 @@
 def roll_call_dwarves(x)# code an argument here
   # Your code here
   i = 0
-  x.map do {|x| x.sort}
-    puts ("{i}. {x}")
+  while i < x.length
+    puts ("#{i + 1}. #{x[i]}")
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
