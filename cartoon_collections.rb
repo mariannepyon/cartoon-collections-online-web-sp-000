@@ -1,6 +1,8 @@
 def roll_call_dwarves(x)# code an argument here
   # Your code here
-  x.collect {|x| x.sort}
+  x = []
+  x.sort do |a, b|
+    a <=> b
 end
 
 def summon_captain_planet# code an argument here
